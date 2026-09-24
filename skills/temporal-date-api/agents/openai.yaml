@@ -1,0 +1,4 @@
+interface:
+  display_name: "Temporal Date API"
+  short_description: "Safely migrate date code to Temporal"
+  default_prompt: "Use $temporal-date-api to refactor this date and time code to Temporal while preserving behavior."
