@@ -1,6 +1,12 @@
-# Temporal Date API skill
+# Skills
 
-An Agent Skill for safely designing, reviewing, and migrating JavaScript and TypeScript date/time code to the ECMAScript Temporal API while preserving observable behavior and external contracts.
+A collection of reusable Agent Skills. Each skill lives in its own directory under `skills/` and can be installed independently.
+
+## Available skills
+
+### `temporal-date-api`
+
+Safely design, review, and migrate JavaScript and TypeScript date/time code to the ECMAScript Temporal API while preserving observable behavior and external contracts.
 
 The skill covers semantic type selection, runtime and polyfill strategy, DST behavior, serialization boundaries, regression testing, and migration from legacy `Date`, Moment, Day.js, Luxon, or date-fns code.
 
@@ -10,19 +16,19 @@ Install the skill with the package runner you already use:
 
 ```sh
 # npm
-npx skills add Sensei85/temporal-date-api-skills --skill temporal-date-api
+npx skills add Sensei85/skills --skill temporal-date-api
 
 # Bun
-bunx skills add Sensei85/temporal-date-api-skills --skill temporal-date-api
+bunx skills add Sensei85/skills --skill temporal-date-api
 
 # pnpm
-pnpm dlx skills add Sensei85/temporal-date-api-skills --skill temporal-date-api
+pnpm dlx skills add Sensei85/skills --skill temporal-date-api
 ```
 
 You can inspect the available skills without installing:
 
 ```sh
-bunx skills add Sensei85/temporal-date-api-skills --list
+bunx skills add Sensei85/skills --list
 ```
 
 ## What it helps with
